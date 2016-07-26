@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <title>Marionette test</title>
+    <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="node_modules/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="map" id="mapId"></div>
+    <div id="markerCollection"></div>
+
+</div>
+<script type="text/html" id="template-markerItemView">
+    <ul>
+
+           <li class="view <%- selected ? 'selected' : 'non-selected'  %>" id="markerCoords"> <%- title %>: <%- lon %> <%- lat %> </li>
+
+   </ul>
+</script>
+
+
+<!-- vendor libraries -->
+<script src="node_modules/todomvc-common/base.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/underscore/underscore.js"></script>
+<script src="node_modules/backbone/backbone.js"></script>
+<script src="node_modules/backbone.marionette/lib/backbone.marionette.js"></script>
+<!-- application -->
+<script src="js/MarkerCollection.js"></script>
+<script src="js/MarkerList.js"></script>
+<script src="js/RootLayout.js"></script>
+<script src="js/Main.js"></script>
+</body>
+</html>

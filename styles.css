@@ -1,0 +1,39 @@
+html, body,.mapHolder {
+    height: 100%;
+    width: 100%;
+    background: rgba(130, 132, 137, 0.44);
+ }
+
+.map {
+
+    height: 100%;
+    width: 75%;
+    position: fixed;
+
+}
+
+.view {
+    text-align: center;
+    width: 25%;
+    list-style: none;
+    float: right;
+    font: 18px "MapFont";
+    color: white;
+    border: 2px solid darkgray ;
+    padding: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+
+.selected {
+    background: red;
+}
+
+.non-selected {
+    background: rgba(130, 132, 137, 0.44);
+}
+

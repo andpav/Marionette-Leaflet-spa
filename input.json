@@ -1,0 +1,45 @@
+[{
+  "title": "marker #1",
+  "lon": 51.5,
+  "lat": -0.08
+},
+{
+"title": "marker #2",
+"lon": 51.6,
+"lat": -0.28
+},
+{
+"title": "marker #3",
+"lon": 51.3,
+"lat": -0.02
+},
+{
+"title": "marker #4",
+"lon": 51.4,
+"lat": -0.22
+},
+{
+"title": "marker #5",
+"lon": 51.5,
+"lat": -0.3
+},
+{
+"title": "marker #6",
+"lon": 51.5,
+"lat": 0.09
+},
+{
+"title": "marker #7",
+"lon": 51.6,
+"lat": 0.02
+},
+{
+"title": "marker #8",
+"lon": 51.4,
+"lat": 0.03
+},
+{
+"title": "marker #9",
+"lon": 51.7,
+"lat": -0.16
+}]
